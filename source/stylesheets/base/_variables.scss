@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
 
 // $BaseType
@@ -16,12 +15,10 @@ $h4-font-size: rem-calc(23) !default;
 $h5-font-size: rem-calc(18) !default;
 $h6-font-size: 1rem !default;
 
-$font-family: "Open Sans", Helvetica, Arial, sans-serif;
-$serif-font-family: "Droid Serif", Georgia, serif;
-$condensed-font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
-
-$sans-font-family: "PT Sans", Helvetica, Arial, sans-serif;
-$sans-font-family-2: Helvetica, Arial, sans-serif;
+$font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, serif;
+$condensed-font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "HelveticaNeueLightCondensed", "HelveticaNeue-Light-Condensed", "Helvetica Neue Light Condensed", "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, Arial, sans-serif;
+$serif-font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, serif;
 
 
 // $Brand Colors
