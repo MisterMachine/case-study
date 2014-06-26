@@ -17,7 +17,7 @@ $h6-font-size: 1rem;
 h1,
 .alpha {
 	@extend %hN;
-	font-size: $h2-font-size;
+	font-size: $h3-font-size;
 	font-weight: 300;
 
 	@media #{$medium-up} {

@@ -32,7 +32,9 @@ $washed-out: rgba(#fff, .2);
 }
 
 .marketing-header {
-	padding: 1.5em 0;
+	border-top: 8px solid darken($primary-color, 5%);
+	border-bottom: 2px solid darken($primary-color, 5%);
+	padding: 5em 0 .5em 0;
 }
 
 .primary-container {
@@ -68,7 +70,7 @@ $washed-out: rgba(#fff, .2);
 }	
 
 .deck {
-	padding: 2.5rem 0;
+	padding: 5rem 0;
 }
 
 .circles {
