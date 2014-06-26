@@ -1,0 +1,32 @@
+.tab-bar, .tab-bar-section {
+	height: 150px;
+}
+
+.tab-bar {
+	background-color: $primary-color;
+	margin-bottom: 3em;
+}
+
+.top-bar-section a {
+	font-family: $font-family !important;
+	padding: 0 20px !important;
+}
+
+.navigation {
+
+	li {
+		display: block;
+		list-style: none;
+
+		@media #{$medium-up} {
+			float: left;
+		}	
+	}
+
+	a {
+		display: block;
+		font-family: $font-family;
+		line-height: 4rem;
+		padding: 0 1em;
+	}
+}

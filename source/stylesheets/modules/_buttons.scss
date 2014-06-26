@@ -1,0 +1,7 @@
+.button, button {
+	color: #fff;
+	font-family: $sans-font-family;
+	background: $primary-color;
+
+	@include border-radius(4px);
+}

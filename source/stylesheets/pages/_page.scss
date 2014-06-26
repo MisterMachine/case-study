@@ -1,0 +1,109 @@
+$washed-out: rgba(#fff, .2);
+
+%inverse-type {
+	color: #fff;
+	webkit-font-smoothing: antialiased;
+	
+	%hN, a {
+		color: #fff;
+	}
+}
+
+%circle {
+	@include border-radius(1000px);
+	width: 50%;
+	height:0;
+	margin: 0 auto;
+	padding-bottom: 50%;
+	margin-bottom: 1em;
+}
+
+%washed-circle {
+	background-color: $washed-out;
+
+	&.secondary, &.warning {
+		background-color: $washed-out;
+	}
+}
+
+%inverse-button {
+	background-color: transparent;
+	border: 2px solid #fff;
+}
+
+.marketing-header {
+	padding: 1.5em 0;
+}
+
+.primary-container {
+	background-color: $primary-color;
+
+	p, .dim {
+		color: darken($primary-color, 15%);
+	}
+}
+
+.secondary-container {
+	background-color: $secondary-color;
+
+	p, .dim {
+		color: darken($secondary-color, 15%);
+	}
+}
+
+.primary-container, .secondary-container {
+	@extend %inverse-type;
+
+	.circle {
+		@extend %washed-circle;
+	}
+
+	.button, button {
+		@extend %inverse-button;
+	}
+}
+
+.wash-container {
+	background-color: $wash-color;
+}	
+
+.deck {
+	padding: 5rem 0;
+}
+
+.circles {
+	padding-top: 5rem;
+
+	p {
+		font-size: .925em;
+	}
+}
+
+.circle {
+	@extend %circle;
+	background: $primary-color; 
+	vertical-align: middle;
+
+	&.secondary {
+		background-color: $secondary-color;
+	}
+
+	&.warning {
+		background-color: $warm-color;
+	}
+
+	img {
+		padding: 2em;
+	}
+}
+
+.cloud {
+	display: block;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+
+	&.bottom-right {
+		right: 0;
+	}
+}

@@ -1,0 +1,74 @@
+$facebook-color: #3B5999;
+$twitter-color: #00aced;
+$google-color: #dd4b39;
+
+.share {
+	overflow: hidden;
+	
+	ul {
+		margin: 0;
+	}
+	
+	li {
+		float: left; 
+		display: block;
+		text-align: center;
+		
+		a {
+			background-color: #404755;
+			color: #fff;
+			display: block;
+			font-family: $sans-font-family;
+			padding-top: .5em;
+		}
+
+		&.twitter a{
+			background-color: $twitter-color;
+		} 
+
+		&.facebook a{
+			background-color: $facebook-color;
+		} 
+
+		&.google a{
+			background-color: $google-color;
+		}
+
+		&.download a{
+			background-color: $success-color;
+		}
+
+		[class^="icon-"], [class*=" icon-"] {
+			display: block;
+			float: none;
+			height: 1rem;
+			font-size: 1rem;
+			text-align: center;	
+			line-height: 2.5rem;
+			margin: 0 0 .5em 0;
+			width: auto;
+		
+		}
+		
+		.icon-mail {
+
+		}
+
+		.icon-facebook {
+
+		}
+		
+		.icon-twitter {
+
+		}	
+
+		.icon-google-plus {
+
+		}
+
+		.icon-printer {
+
+		}		
+		
+	}
+}
