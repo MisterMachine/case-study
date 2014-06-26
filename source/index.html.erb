@@ -1,68 +1,49 @@
-<section class="off-canvas-wrap" data-offcanvas>
-	<div class="inner-wrap">
-		
-		<%= partial "shared/_top-bar" %>
-		
-		<section class="slide-canvas">
-			
-			<div class="row">
-				<div class="pattern large-12 columns">
-					<%= partial "shared/_colors" %>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="pattern large-12 columns">	
-					<%= partial "shared/_type" %>
-				</div>
-			</div>
-	
-			<div class="row">
-				<div class="pattern large-12 columns">
-					<%= partial "shared/_headers" %>
-				</div>
-			</div>
-	
-			<div class="row">
-				<div class="pattern large-12 columns">			
-					<%= partial "shared/_icons" %>
-				</div>
-			</div>
-		
-	
-			<div class="row">
-				<div class="pattern large-12 columns">	
-					<%= partial "shared/_buttons" %>
-					<%= partial "shared/_forms" %>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="pattern large-12 columns">	
-					<%= partial "shared/_article" %>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="pattern large-12 columns">
-					<%= partial "shared/_text" %>
-				</div>
-			</div>
+<section class="marketing-header primary-container">
+  <div class="row">
+    <h1 class="medium-left">cloudstead</h1>
 
-			<div class="row">
-				<div class="pattern large-12 columns">	
-					<%= partial "shared/_subscribe" %>
-				</div>
-			</div>
-	
-			<div class="row">
-				<div class="pattern large-12 columns">	
-					<%= partial "shared/_excerpt-3x" %>
-				</div>
-			</div>
-	
-			<%= partial "shared/_footer" %>
-	
-		</section>
-	</div>	
+    <nav class="navigation medium-right inline-list">
+      <%= partial "shared/_nav" %>
+    </nav>
+  </div>  
+</section>
+
+<section class="deck primary-container">
+
+  <%= partial "shared/_pitch-3x" %>
+
+  <span class="cloud"><img src="images/bg-cloud.png" /></span>
+
+</section>
+
+<section class="deck">
+
+  <%= partial "shared/_pitch-3x" %>
+
+</section>
+
+<section class="deck secondary-container">
+
+  <%= partial "shared/_pitch-3x" %>
+
+  <span class="cloud bottom-right"><img src="images/bg-cloud.png" /></span>
+
+</section>
+
+<section class="deck">
+  
+  <%= partial "shared/_hero" %>
+
+</section>
+
+<section class="deck secondary-container">
+
+  <%= partial "shared/_hero" %>
+
+</section>
+
+<section class="deck primary-container">
+
+  <%= partial "shared/_hero" %>
+
 </section>
