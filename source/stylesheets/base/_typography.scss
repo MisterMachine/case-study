@@ -89,6 +89,17 @@ blockquote {
 	}
 }
 
+figcaption {
+	padding: 2em 0;
+
+	p {
+		color: #999;
+		font-family:$serif-font-family;
+		font-style: italic;
+		font-size: .825em;
+	}
+}
+
 .serif {
 	font-family:$serif-font-family;
 }
@@ -102,7 +113,15 @@ blockquote {
 }
 
 .light {
-	font-weight: 300;
+	font-weight: 100;
+}
+
+.caps {
+	text-transform: uppercase;
+}
+
+.condensed {
+	font-family:$condensed-font-family;
 }
 
 .no-margin {
