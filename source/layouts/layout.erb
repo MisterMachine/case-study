@@ -13,8 +13,14 @@
   </head>
 
   <body class="<%= page_classes %>">
+
+    <%= partial "shared/_header" %>
+
     <%= yield %>
 
+    <%= partial "shared/_footer" %>
+
     <%= javascript_include_tag  "all" %>
+
   </body>
 </html>
