@@ -42,4 +42,3 @@ var CS = (function() {
 jQuery(document).ready(function() {
   CS.init();
 });
-
